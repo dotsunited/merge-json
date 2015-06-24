@@ -1,0 +1,20 @@
+{
+  "name": "dotsunited-merge-json",
+  "description": "Simple command line utility for merging json files.",
+  "author": {
+    "name": "Jan Sorgalla",
+    "url": "jan.sorgalla@dotsnited.de"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotsunited/merge-json.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "dotsunited-merge-json": "cli.js"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3"
+  }
+}
