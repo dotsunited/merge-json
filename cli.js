@@ -21,7 +21,7 @@ try {
     }, {});
 
     process.stdout.write(
-        JSON.stringify(obj, null, '  ') + "\n"
+        JSON.stringify(obj) + "\n"
     );
 } catch (e) {
     console.error(e);
