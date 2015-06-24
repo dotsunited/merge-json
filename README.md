@@ -24,7 +24,7 @@ find . -name "*.json" -exec dotsunited-merge-json > ./merged.json {} \;
 Pretty-print json with [jq](http://stedolan.github.io/jq/):
 
 ```bash
-find . -name *.json -print0 | xargs -0 dotsunited-merge-json | jq .
+find . -name "*.json" -print0 | xargs -0 dotsunited-merge-json | jq .
 ```
 
 License
