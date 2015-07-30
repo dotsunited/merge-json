@@ -3,7 +3,7 @@
   "description": "Simple command line utility for merging json files.",
   "author": {
     "name": "Jan Sorgalla",
-    "url": "jan.sorgalla@dotsunited.de"
+    "email": "jan.sorgalla@dotsunited.de"
   },
   "version": "1.0.1",
   "repository": {
