@@ -4,7 +4,7 @@
   "author": {
     "name": "Jan Sorgalla",
     "email": "jan.sorgalla@dotsunited.de",
-    "url" : "https://dotsunited.de"
+    "url": "https://dotsunited.de"
   },
   "version": "1.0.1",
   "repository": {
@@ -16,6 +16,7 @@
     "dotsunited-merge-json": "cli.js"
   },
   "dependencies": {
-    "lodash": "^3.9.3"
+    "lodash.isarray": "^3.9.3||^4.0.0",
+    "lodash.merge": "^3.9.3||^4.0.0"
   }
 }

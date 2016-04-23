@@ -1,8 +1,9 @@
-var _ = require('lodash');
+var merge = require('lodash.merge');
+var isArray = require('lodash.isarray');
 
 module.exports = function(object, fragment) {
-    return _.merge(object, fragment, function(a, b) {
-        if (_.isArray(a)) {
+    return merge(object, fragment, function(a, b) {
+        if (isArray(a)) {
             return a.concat(b);
         }
     })
